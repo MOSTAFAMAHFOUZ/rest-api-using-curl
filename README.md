@@ -1,5 +1,5 @@
 # REST API FULL EXAMPLE WITH PHP
-## THIS REPO INCLUDE SERVER SIDE PROJECT AND FOLDER FOR IMPLMENTING REST API 
+## THIS REPO INCLUDE SERVER SIDE PROJECT AND FOLDER FOR IMPLEMENTING REST API 
 ---
 | Two Folders 
 * api-app -> folder
@@ -22,8 +22,11 @@ php artisan migrate --seed
 php artisan serv
 ```
 
-| to run rest apis 
+| to run rest apis
+
 | go to rest-api folder and run cli for specific file 
+
+------
 
 ### examples 
 | open your editor , open categories.php file in terminal and run this command
@@ -34,6 +37,7 @@ php categories.php
 ```shell
 array of  categories
 ``` 
+------ 
 | to create new item 
 | open cli for store.php file and run this command 
 ```shell
@@ -48,10 +52,8 @@ php store.php
 ```shell
 php show.php
 ``` 
-| after runing this command you
-
 | response will be resource of selected item 
------
+------ 
 
 | to delete item
 
