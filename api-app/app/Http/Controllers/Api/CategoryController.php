@@ -31,7 +31,7 @@ class CategoryController extends Controller
     {
         // return $request->name;
         $request->validate([
-            'name'=>"required|string|max:200"
+            'name'=>"required|string|max:200",
         ]);
         $category = new Category;
         $category->name = $request->name;
